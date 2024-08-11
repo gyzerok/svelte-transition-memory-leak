@@ -1,5 +1,5 @@
-<script lang="ts">
+<script>
 	import { fade } from 'svelte/transition';
 </script>
 
-<div in:fade|global>text</div>
+<div in:fade>text</div>

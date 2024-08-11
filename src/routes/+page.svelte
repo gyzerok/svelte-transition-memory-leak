@@ -6,7 +6,5 @@
 
 <button onclick={() => (counter += 1)}>Toggle</button>
 {#if counter % 2 === 1}
-	{#key counter}
-		<MemoryLeak />
-	{/key}
+	<MemoryLeak />
 {/if}
